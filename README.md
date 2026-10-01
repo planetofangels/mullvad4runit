@@ -1,11 +1,14 @@
-Mullvad VPN installer script for runit systems.
+# Mullvad VPN installer script for runit systems.
+
 
 Downloads and installs the latest Mullvad VPN and creates a runit sv if required.
 
-Usage:
+
+# Usage:
 `curl -fsSL https://raw.githubusercontent.com/planetofangels/mullvad4runit/refs/heads/main/updatemullvad.sh | bash`
 
-Required dependencies:
+
+**Required dependencies:**
 * curl
 * binutils (ar)
 * tar
