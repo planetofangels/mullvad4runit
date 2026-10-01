@@ -8,7 +8,7 @@ Downloads and installs the latest Mullvad VPN and creates a runit sv if required
 `curl -fsSL https://raw.githubusercontent.com/planetofangels/mullvad4runit/refs/heads/main/updatemullvad.sh | bash`
 
 
-**Required dependencies:**
+# Required dependencies:
 * curl
 * binutils (ar)
 * tar
